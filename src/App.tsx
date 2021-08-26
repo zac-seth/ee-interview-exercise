@@ -1,5 +1,6 @@
 import { VFC } from 'react';
 
+import { Calculator } from 'app';
 
 import { GlobalStyles } from './global-styles';
 import {
@@ -12,6 +13,7 @@ import {
   Logo,
   Title,
 } from './App.style';
+import { ContentPanel } from 'elements';
 
 export const App: VFC = () => {
   return (
@@ -31,7 +33,9 @@ export const App: VFC = () => {
               Zac Seth
             </InlineLink>
           </ByLine>
-            <div>Calculator Here</div>
+          <ContentPanel>
+            <Calculator />
+          </ContentPanel>
         </Body>
       </AppContainer>
     </>
