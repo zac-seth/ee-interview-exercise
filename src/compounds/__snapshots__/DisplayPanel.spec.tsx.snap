@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DisplayPanel Should render the display panel 1`] = `
+.c1 {
+  text-shadow: 0 0 5px #FFF,0 0 15px #B6FF00;
+  color: #FFF;
+  margin: 0;
+  padding: 0;
+  font-size: 4rem;
+  line-height: 4rem;
+}
+
+.c2 {
+  text-shadow: 0 0 5px #FFF,0 0 15px #B6FF00;
+  color: #FFF;
+  margin: 0;
+  padding: 0;
+  font-size: 3.2rem;
+  line-height: 3.2rem;
+}
+
+.c0 {
+  text-align: right;
+  color: #FFF;
+  padding: 1rem;
+}
+
+<section
+  class="c0"
+  data-testid="multi-line-display-panel"
+>
+  <p
+    class="c1"
+    mode="primary"
+  >
+    1000
+  </p>
+  <p
+    class="c2"
+    mode="secondary"
+  >
+    100 + 250 - 30
+  </p>
+</section>
+`;

@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CalculatorShell Should render the shell 1`] = `
+.c0 {
+  display: grid;
+  grid-gap: 0.25rem;
+  margin: 0;
+  padding: 0;
+  grid-template-rows: 1fr 4fr 1fr;
+}
+
+.c1 {
+  display: grid;
+  grid-gap: 0.25rem;
+  margin: 0;
+  padding: 0;
+  grid-template-columns: 3fr 1fr;
+}
+
+<div
+  class="c0"
+  data-testid="grid-layout"
+>
+  <p>
+    section: display
+  </p>
+  <div
+    class="c1"
+    data-testid="grid-layout"
+  >
+    <p>
+      section: numbers
+    </p>
+    <p>
+      section: functions
+    </p>
+  </div>
+  <p>
+    section: controls
+  </p>
+</div>
+`;
