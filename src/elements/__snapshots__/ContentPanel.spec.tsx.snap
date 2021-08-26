@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentPanel Should render a content panel 1`] = `
+.c0 {
+  width: 33.25rem;
+  padding: .25rem;
+  border-radius: .25rem;
+  background-color: #FFF;
+}
+
+<section
+  class="c0"
+  data-testid="content-panel"
+>
+  <div>
+    Content in a panel!
+  </div>
+</section>
+`;

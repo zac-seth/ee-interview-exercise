@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grid Should render the grid with the list of given child items 1`] = `
+.c0 {
+  display: grid;
+  grid-gap: 0.25rem;
+  margin: 0;
+  padding: 0;
+  grid-template-columns: repeat(3,1fr);
+}
+
+<div
+  class="c0"
+  data-testid="grid-layout"
+>
+  <div
+    data-testid="item-0"
+  >
+    value 
+    0
+  </div>
+  <div
+    data-testid="item-1"
+  >
+    value 
+    1
+  </div>
+  <div
+    data-testid="item-2"
+  >
+    value 
+    2
+  </div>
+  <div
+    data-testid="item-3"
+  >
+    value 
+    3
+  </div>
+  <div
+    data-testid="item-4"
+  >
+    value 
+    4
+  </div>
+  <div
+    data-testid="item-5"
+  >
+    value 
+    5
+  </div>
+  <div
+    data-testid="item-6"
+  >
+    value 
+    6
+  </div>
+  <div
+    data-testid="item-7"
+  >
+    value 
+    7
+  </div>
+  <div
+    data-testid="item-8"
+  >
+    value 
+    8
+  </div>
+</div>
+`;
