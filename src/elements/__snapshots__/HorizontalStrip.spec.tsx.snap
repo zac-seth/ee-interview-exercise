@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HorizontalStrip Should render the HorizontalStrip with the list of given child items 1`] = `
+.c0 {
+  display: grid;
+  grid-gap: 0.25rem;
+  margin: 0;
+  padding: 0;
+  grid-template-columns: repeat(3,1fr);
+}
+
+<div
+  class="c0"
+  data-testid="horizontal-strip-layout"
+>
+  <div
+    data-testid="item-0"
+  >
+    value 
+    0
+  </div>
+  <div
+    data-testid="item-1"
+  >
+    value 
+    1
+  </div>
+  <div
+    data-testid="item-2"
+  >
+    value 
+    2
+  </div>
+</div>
+`;

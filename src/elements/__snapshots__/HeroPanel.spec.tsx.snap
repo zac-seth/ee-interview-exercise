@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeroPanel Should render a hero panel 1`] = `
+.c0 {
+  width: 33.25rem;
+  padding: .25rem;
+  border-radius: .25rem;
+  background-color: #FFF;
+  background-color: #171717;
+}
+
+<section
+  class="c0"
+  data-testid="hero-panel"
+>
+  <div>
+    Hero content in a panel!
+  </div>
+</section>
+`;

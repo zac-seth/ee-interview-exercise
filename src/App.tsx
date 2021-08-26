@@ -1,26 +1,43 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { VFC } from 'react';
 
-function App() {
+import { Calculator } from 'app';
+
+import { GlobalStyles } from './global-styles';
+import {
+  AppContainer,
+  Body,
+  ByLine,
+  Header,
+  InlineLink,
+  Lighten,
+  Logo,
+  Title,
+} from './App.style';
+import { ContentPanel } from 'elements';
+
+export const App: VFC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <GlobalStyles />
+      <AppContainer>
+        <Header>
+          <Logo src='/assets/images/Equal_Experts_Logo_RGB_Sponsorship_Colour.svg' />
+        </Header>
+        <Body>
+          <Title>
+            <Lighten>Delivering.</Lighten> Numerical Value.
+          </Title>
+          <ByLine>
+            An interview submission designed &amp; developed by{' '}
+            <InlineLink href='https://github.com/zac-seth' target='_blank'>
+              Zac Seth
+            </InlineLink>
+          </ByLine>
+          <ContentPanel>
+            <Calculator />
+          </ContentPanel>
+        </Body>
+      </AppContainer>
+    </>
   );
-}
-
-export default App;
+};

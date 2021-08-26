@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArithmeticStrip Should render the arithmetic button strip 1`] = `
+.c1 {
+  font-family: 'Lato',sans-serif;
+  font-weight: 400;
+  color: #666;
+  text-shadow: 0 0 5px #1A94D2,0 0 15px #228DFF;
+  font-size: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  padding: 1rem;
+  margin: 0;
+  width: 8rem;
+  height: 8rem;
+  background-color: inherit;
+  color: #1a94d2;
+  border: 0;
+  cursor: pointer;
+  background-color: #1a1a1a;
+}
+
+.c1:hover {
+  background-color: #1a1a1a;
+}
+
+.c1:hover {
+  background-color: #1d1d1d;
+}
+
+.c0 {
+  display: grid;
+  grid-gap: 0.25rem;
+  margin: 0;
+  padding: 0;
+  grid-template-rows: repeat(4,1fr);
+}
+
+<div
+  class="c0"
+  data-testid="vertical-strip-layout"
+>
+  <button
+    class="c1"
+  >
+    ÷
+  </button>
+  <button
+    class="c1"
+  >
+    ×
+  </button>
+  <button
+    class="c1"
+  >
+    −
+  </button>
+  <button
+    class="c1"
+  >
+    +
+  </button>
+</div>
+`;

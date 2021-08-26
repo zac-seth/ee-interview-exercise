@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrimaryNumberDisplay Should render the component 1`] = `
+.c0 {
+  text-shadow: 0 0 5px #FFF,0 0 15px #B6FF00;
+  color: #FFF;
+  margin: 0;
+  padding: 0;
+  font-size: 4rem;
+  line-height: 4rem;
+}
+
+<p
+  class="c0"
+  mode="primary"
+>
+  101
+</p>
+`;

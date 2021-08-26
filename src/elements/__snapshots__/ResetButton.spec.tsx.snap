@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResetButton Should render a reset button 1`] = `
+.c0 {
+  font-family: 'Lato',sans-serif;
+  font-weight: 400;
+  color: #666;
+  text-shadow: 0 0 5px #1A94D2,0 0 15px #228DFF;
+  font-size: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  padding: 1rem;
+  margin: 0;
+  width: 8rem;
+  height: 8rem;
+  background-color: inherit;
+  color: #1a94d2;
+  border: 0;
+  cursor: pointer;
+  background-color: #1a1a1a;
+}
+
+.c0:hover {
+  background-color: #1a1a1a;
+}
+
+.c0:hover {
+  background-color: #1d1d1d;
+}
+
+<button
+  class="c0"
+>
+  C
+</button>
+`;
